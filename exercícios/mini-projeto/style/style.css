@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root{ /*adiciono variáveis*/
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --font-android: 'Android', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(63, 153, 99), rgb(19, 56, 34));
+    color: white;
+    height: 260px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.356);
+    width: auto;
+}
+header > p{
+    text-align: center;
+    padding-bottom: 85px;
+}
+header > h1{
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-family: var(--fonte-destaque);
+}
+nav > p{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px; 
+    margin-bottom: 5px;
+    color: rgb(22, 172, 107);
+    margin-top: 10px;
+    font-size: 17px;
+    text-decoration: bold;
+}
+.menu :hover{
+    background-color: rgb(22, 172, 107);
+    color: rgb(12, 78, 54);
+    border-radius: 3px;
+}
+main{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    height: 3000px;
+    margin: 200px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    box-shadow: -2px 8px 10px 5px rgba(0, 0, 0, 0.181);
+}
+main > h1{
+    margin-left: 25px;
+    color: rgb(20, 105, 65);
+}
+main > p{
+    text-indent: 50px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px
+}
+a{
+    color: rgb(27, 141, 80);
+    text-decoration: none;
+}
+h2{
+    margin-left: 25px;
+    background-image: linear-gradient(to right, rgba(14, 167, 75, 0.496), rgba(16, 215, 96, 0.082));
+    color: rgb(17, 102, 57);
+}
+#lk > a{
+    background-image: linear-gradient(to right, rgba(16, 215, 96, 0.589), rgba(16, 215, 96, 0.082));
+    color: rgb(5, 81, 32);
+}
+#lk :hover{
+    text-decoration: underline;
+}
+picture > img{
+    width: 1000px;
+    padding: 50px;
+    padding-top: 15px;
+}
+#pimg > a{
+    background-image: linear-gradient(to right, rgba(16, 215, 96, 0.589), rgba(16, 215, 96, 0.082));
+    color: rgb(5, 81, 32);
+}
+#pimg :hover{
+    text-decoration: underline;
+}
+strong{
+    color: rgb(5, 81, 32);
+}
+picture > #img3{
+    height: 100px;
+    width: 100px;
+}
+iframe{
+    padding: 0;
+    margin: 0;
+}
+aside{
+    display: inline-block;
+    background-color: rgba(79, 188, 123, 0.548);
+    margin-top: 20px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h3{
+    padding-left: 15px;
+    background-color: rgb(63, 153, 99);
+    margin-top: 0;
+    border-radius: 10px;
+    height: 40px;
+    padding-top: 12px;
+    color: white;
+}
+#ph3{
+    color: black;
+    text-align: justify;
+    text-indent: 30px;
+}
+.list{
+    padding-left: 500px;
+    padding-top: 200;
+}
+.final > p{
+    text-indent: 30px;
+}
+.final :hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(7, 68, 7);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+strong{
+    color: white;
+}
+#stg1{
+    color: rgb(7, 68, 7);
+}
+abbr{
+    text-decoration: underline;
+}
+picture{
+    width: 100%;
+    height: auto;
+}
